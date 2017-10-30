@@ -1,0 +1,38 @@
+.wrapper .container {
+  max-width: 80rem;
+}
+
+.container { margin-top: 2em; }
+
+.book {
+  padding: 3em 0 4em 0;
+  border-bottom: 0.2rem solid #9b4dca;
+}
+
+.book:hover {
+  transition: border-radius 0.2s;
+  cursor: pointer;
+  background-color: rgba(155, 77, 202, 0.05);
+  border-radius: 0 0 0.6em 0.6em;
+}
+
+.book .loader {
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+.book img {
+  max-width: 10em;
+}
+
+.loader {
+  display: block;
+  margin: 0 auto;
+  width: 10em;
+  margin-top: 5em;
+}
+
+.loader.rating {
+  width: 5em;
+  margin-top: 0;
+}
